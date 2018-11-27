@@ -8,4 +8,13 @@ function saveSource(filename){
   document.body.appendChild(link);
   link.click();
   console.log("SAVE FILE");
+
+  //pdf
+  // var doc= new jsPDF();
+  // var specialElementHandlers={};
+  // doc.fromHTML(response,15,15,{'width': 170,
+  // 'elementHandlers': specialElementHandlers});
+  // doc.save('sample-file-2.pdf');
+  //txt
+
 }
